@@ -1,9 +1,10 @@
+import { ActivityIndicator, View } from "react-native";
 import { Container, LoadIndicator } from "./styles";
 
-export function Loading() {
+export const Loading = () => {
   return (
     <Container>
       <LoadIndicator />
     </Container>
   );
-}
+};
